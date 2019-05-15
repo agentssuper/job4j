@@ -1,7 +1,7 @@
 package ru.job4j.calculate;
 
 //**
-* Calculate*
+* Calculate
 * @author Anton Ocheredko (agents@mail.ru)
 */
 
