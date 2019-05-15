@@ -1,16 +1,14 @@
-/**
-* Package for calculate task.
-*
-* @author Anton Ocheredko (agents@mail.ru)
-* @version $Id$
-* @since 0.1
-*/
-
 package ru.job4j.calculate;
+
+//**
+* Calculate*
+* @author Anton Ocheredko (agents@mail.ru)
+*/
 
 public class Calculate {
 	/**
-	* Main
+	* Main. 
+	* Вывод строки в консоль.
 	* @param args - args.
 	*/
 	public static void main(String[] args) {
