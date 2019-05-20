@@ -20,7 +20,7 @@ public class Converter {
      * @return Доллары
      */
     public int rubleToDollar(int value) {
-        return value / 60 ;
+        return value / 60;
     }
 	
 	 /**
