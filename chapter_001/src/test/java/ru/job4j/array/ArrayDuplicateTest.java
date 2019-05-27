@@ -16,5 +16,16 @@ public class ArrayDuplicateTest {
       assertThat(result, is(expect));
 	  
     }
+
+    @Test
+    public void whenRemoveDuplicatesThenArrayWithoutDuplicate2() {
+        ArrayDuplicate arrayDuplicate = new ArrayDuplicate();
+        String[] array = new String[]  {"Привет", "Мир", "Привет", "Супер", "Мир"};
+        String[] result = arrayDuplicate.remove(array);
+        String[] expect = new String[]  {"Привет", "Мир", "Супер"};
+
+        assertThat(result, is(expect));
+
+    }
 }
 

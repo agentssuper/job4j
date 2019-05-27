@@ -8,9 +8,7 @@ public class ArrayDuplicate {
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length - dublicate; j++) {
                 if (array[i].equals(array[j])) {
-                    while (j != array.length - dublicate - 1 && array[array.length - dublicate - 1].equals(array[j])) {
-                        dublicate = dublicate + 1;
-                    } String vremennayaPeremennaya = array[array.length - dublicate - 1];
+                    String vremennayaPeremennaya = array[array.length - dublicate - 1];
                     array[array.length - dublicate - 1] = array[j];
                     array[j] = vremennayaPeremennaya;
                     dublicate = dublicate + 1;
