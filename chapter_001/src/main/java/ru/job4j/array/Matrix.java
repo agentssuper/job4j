@@ -4,7 +4,7 @@ public class Matrix {
     public int[][] multiple(int size) {
         int[][] table = new int[size][size];
 		for (int x = 0; x < table.length; x++) {
-			for (int y = 0; y < table.length; y++){
+			for (int y = 0; y < table.length; y++) {
 				table[x][y] = (x + 1) * (y + 1);
 			}
 		}
